@@ -28,6 +28,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
   - [AI App Development Frameworks](#ai-app-development-frameworks)
   - [Local Development & Serving](#local-development--serving)
   - [LLM Inference Platforms](#llm-inference-platforms)
+  - [Structured Generation](#structured-generation)
 - [🤝 Contributing](#-contributing)
 
 ## 🛠️ Tooling for AI Engineers
@@ -57,6 +58,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langflow](https://github.com/langflow-ai/langflow) | Visual no-code platform for building and deploying LLM workflows | Python/TypeScript | MIT |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop UI for creating LLM chains and agents | TypeScript | MIT |
 | [Promptflow](https://github.com/microsoft/promptflow) | Workflow orchestration for LLM pipelines, evaluation, and deployment | Python | MIT |
+| [Dify](https://github.com/langgenius/dify) | Production-ready open source platform combining RAG pipelines, agent capabilities, model management, and observability in one UI | TypeScript/Python | Apache-2.0 |
 
 ### PDF Extraction Tools
 
@@ -104,6 +106,9 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Giskard](https://github.com/Giskard-AI/giskard) | Testing framework for ML/LLMs with bias and robustness checks | Python | Apache-2.0 |
 | [Weave](https://github.com/wandb/weave) | Experiment tracking, debugging, and logging for LLM workflows | Python | Apache-2.0 |
 | [Lighteval](https://github.com/huggingface/lighteval) | Lightweight and fast evaluation framework from Hugging Face | Python | Apache-2.0 |
+| [Langfuse](https://github.com/langfuse/langfuse) | Open source LLM engineering platform with tracing, evals, prompt management, and metrics | TypeScript/Python | MIT |
+| [Helicone](https://github.com/Helicone/helicone) | Open source observability and monitoring platform for debugging and improving LLM apps | TypeScript | Apache-2.0 |
+| [OpenLLMetry](https://github.com/traceloop/openllmetry) | OpenTelemetry-based observability extensions for LLM apps — plugs into Datadog, Honeycomb, and more | Python | Apache-2.0 |
 
 ### Model Management
 
@@ -156,6 +161,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Swarms](https://github.com/kyegomez/swarms) | Enterprise agent orchestration framework (“Agency Swarm”) | Python | MIT |
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
+| [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI agents — persistent, personalized memory across sessions | Python | Apache-2.0 |
 
 ## 📦 LLM Development & Optimization
 
@@ -209,6 +215,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [AI SDK UI](https://github.com/vercel/ai) | Vercel’s AI SDK for building chat & generative UIs | TypeScript | Apache-2.0 |
 | [Simpleaichat](https://github.com/minimaxir/simpleaichat) | Minimal Python interface for prototyping conversational LLMs | Python | MIT |
 | [Chainlit](https://github.com/Chainlit/chainlit) | Framework for building and debugging LLM apps with a rich UI | Python | Apache-2.0 |
+| [Mirascope](https://github.com/mirascope/mirascope) | Lightweight Python toolkit for building LLM apps with Pydantic-native structured outputs and no extra abstractions | Python | MIT |
 
 ### Local Development & Serving
 
@@ -223,6 +230,14 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
 | [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
 | [LitServe](https://github.com/Lightning-AI/LitServe) | High-speed GPU inference server with autoscaling and batch support | Python | Apache-2.0 |
+
+### Structured Generation
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [Instructor](https://github.com/567-labs/instructor) | Multi-language library for extracting structured, validated outputs from LLMs using Pydantic | Python/TS/Go | MIT |
+| [Outlines](https://github.com/dottxt-ai/outlines) | Guarantees 100% valid structured outputs (JSON, regex, grammars) by constraining LLM token generation | Python | Apache-2.0 |
+| [Guidance](https://github.com/guidance-ai/guidance) | Microsoft's language for controlling LLM outputs — interleave generation with conditionals, loops, and constraints | Python | MIT |
 
 ### LLM Inference Platforms
 
